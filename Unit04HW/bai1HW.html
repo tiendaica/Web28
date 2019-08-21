@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS</title>
+	<style type="text/css">
+		body{
+			background-image: url(images/bg.jpg);
+			background-size: 100%;
+			
+		}
+		#banner{
+			
+			height: 60px;
+			width: 100%;
+		}
+		
+		#banner>ul{
+			width: 100%;
+			height:100%;
+			list-style: none;
+		}
+		.banner-left{
+			
+			padding-right: 600px !important;
+		}
+		
+		#banner>ul>li{
+			float: left;
+			height: 100%;
+			line-height: 50px;
+			padding-left: 10px;
+			padding-right: 10px;
+			position: relative;
+		}
+		
+		#content{
+			width: 100%;
+			height: 600px;
+			float: left;
+			clear: both;
+		}
+	
+		#footer{
+			height: 60px;
+			width: 100%;
+			clear: both;
+			color: red;
+			
+		}
+		#footer>ul{
+			width: 100%;
+			height:100%;
+			list-style: none;
+		}
+		#footer>ul>li{
+			float: left;
+			height: 100%;
+			color: black;
+			line-height: 50px;
+			padding-left: 10px;
+			padding-right: 10px;
+			position: relative;
+}
+	
+		#footer>ul>li>a{
+			color: blue;
+		}
+		#footer>ul>li:hover a{
+			color:yellow;
+		
+}
+		#sub-menu{
+			width: 20%;
+			height: 100%;
+			/*background-color: green;*/
+			float: left;
+		}
+		#sub-menu>ul>li{
+			
+			height:100%;
+			color: black;
+			width: 100%;
+			list-style : none;
+		}
+		#sub-menu>ul>li>a{
+			color: black;
+			text-decoration: none;
+		}
+		#sub-menu>ul>li:hover a{
+			color:yellow;
+		}
+		#main{
+			width: 80%;
+			height: 100%;
+			float: left;
+		}
+		.bigbox-b1{
+			float: left;
+			width: 25%;
+			height: 180px;
+			background-image: url(images/ip.jpg);
+			position: relative;
+			border-radius: 10% ;
+			 
+		}
+		.text1{
+			position: absolute;
+			top:-20px;
+			height: 20px;
+			width: 100%;
+			z-index: 10;
+			background-color: #eeeeee;
+			
+		}
+		.text2{
+			position: absolute;
+			bottom:-20px;
+			color: white;
+			height: 20px;
+			width: 100%;
+			background-color:black;
+			border-radius: 10% ;
+			
+		}
+		.bigbox-b2{
+			float: left;
+			margin-left: 20px;
+			
+			width: 25%;
+			height: 180px;
+			background-image: url(images/travel.jpg);
+			 position: relative;
+			 border-radius: 10% ;
+		}
+		.text3{
+			position: absolute;
+			top:-20px;
+			height: 20px;
+			width: 100%;
+			z-index: 10;
+			background-color: #eeeeee;
+			
+		}
+		.text4{
+			position: absolute;
+			bottom:-20px;
+			color: white;
+			height: 20px;
+			width: 100%;
+			background-color:black;
+			 border-radius: 10% ;
+		}
+		.bigbox-b3{
+			float: left;
+			margin-left: 20px;
+			margin-bottom: 20px;
+			width: 25%;
+			height: 180px;
+			background-image: url(images/photo.jpg);
+			 position: relative;
+			 border-radius: 10% ;
+		}
+		.text5{
+			position: absolute;
+			top:-20px;
+			height: 20px;
+			width: 100%;
+			z-index: 10;
+			background-color: #eeeeee;
+			
+		}
+		.text6{
+			position: absolute;
+			bottom:-20px;
+			color: white;
+			height: 20px;
+			width: 100%;
+			background-color:black;
+			border-radius: 10% ;
+		}
+		.bigbox-b4{
+			float: left;
+			
+			width: 25%;
+			height:  180px;
+			background-image: url(images/finance.jpg);
+			 position: relative;
+			 border-radius: 10% ;
+		}
+		.text7{
+			position: absolute;
+			
+			top:-20px;
+			height: 20px;
+			width: 100%;
+			z-index: 10;
+			background-color: #eeeeee;
+			
+		}
+		.text8{
+			position: absolute;
+			bottom:-20px;
+			color: white;
+			height: 20px;
+			width: 100%;
+			background-color:black;
+			 border-radius: 10% ;
+		}
+		.bigbox-b5{
+			float: left;
+			margin-left: 20px;
+			
+			width: 25%;
+			height:  180px;
+			background-image: url(images/movie.jpg);
+			 position: relative;
+			 border-radius: 10% ;
+		}
+		.text9{
+			position: absolute;
+			top:-20px;
+			height: 20px;
+			width: 100%;
+			z-index: 10;
+			background-color: #eeeeee;
+			
+		}
+		.text10{
+			position: absolute;
+			bottom:-20px;
+			color: white;
+			height: 20px;
+			width: 100%;
+			background-color:black;
+			 border-radius: 10% ;
+		}
+		.bigbox-b6{
+			float: left;
+			margin-left: 20px;
+			margin-bottom: 20px;
+			width: 25%;
+			height:  180px;
+			background-image: url(images/cook.jpg);
+			 position: relative;
+			 border-radius: 10% ;
+		}
+		.text11{
+			position: absolute;
+			top:-20px;
+			height: 20px;
+			width: 100%;
+			z-index: 10;
+			background-color: #eeeeee;
+			
+		}
+		.text12{
+			position: absolute;
+			bottom:-20px;
+			color: white;
+			height: 20px;
+			width: 100%;
+			background-color:black;
+			 border-radius: 10% ;
+		}
+.bigbox-b7{
+			float: left;
+			width: 25%;
+			height:  180px;
+			background-image: url(images/fashion.jpg);
+			 position: relative;
+			 border-radius: 10% ;
+		}
+		.text13{
+			position: absolute;
+			
+			top:-20px;
+			height: 20px;
+			width: 100%;
+			z-index: 10;
+			background-color: #eeeeee;
+			
+		}
+		.text14{
+			position: absolute;
+			bottom:-20px;
+			color: white;
+			height: 30px;
+			width: 100%;
+			background-color:black;
+			 border-radius: 10% ;
+		}
+	</style>
+</head>
+<body>
+	<div id="banner">
+			<ul>
+			<li class="banner-left"><b>Zent Group</b></li>
+			<li>About</li>
+			<li>Sign up</li>
+			<li>Sign in</li>
+		</ul>
+	</div>
+	<div id="content" style="clear: both;"> 
+		<div id="sub-menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Tab Galley</a></li>
+				<li><a href="#">Create Tab</a></li>
+				<li><a href="#">Favorites</a></li>
+				<li><a href="#">Tech News</a></a></li>
+				<li><a href="#">Travel</a></li>
+				<li><a href="#">Photography</a></li>
+				<li><a href="#">Finace World</a></li>
+				<li><a href="#">Movies</a></li>
+				<li><a href="#">Cooking</a></li>
+				<li><a href="#">Fashon</a></li>
+			</ul>
+		</div>
+		<div id="main">
+
+			<div class="bigbox-b1">
+				<p class="text1" ><b>Tech new</b></p>
+
+				<p class="text2" >Zent phone by zetn group</p>
+
+			</div>
+			<div class="bigbox-b2">
+				<p class="text3" ><b>Travel</b></p>
+
+				<p class="text4" >Do your best-The rest will come </p>
+			</div>
+			<div class="bigbox-b3">
+				<p class="text5" ><b>Photography</b></p>
+
+				<p class="text6" >Take a short.A Pulizer prize is watting for you </p>
+			</div>
+			
+			<div class="bigbox-b4">
+				<p class="text7" ><b>Frinace World</b></p>
+
+				<p class="text8" >Gold?Placse dont chase it. What about dolla?</p>
+				</div>	
+			<div class="bigbox-b5">
+				<p class="text9" ><b>Movies</b></p>
+
+				<p class="text10" >Batman the rings is released in October</p>
+				</div>	
+			<div class="bigbox-b6">
+				<p class="text11" ><b>Cooking</b></p>
+
+				<p class="text12" >How to cooking spagheti?Just click and taste</p>
+				</div>	
+			<div class="bigbox-b7">
+				<p class="text13" ><b>Fashion</b></p>
+
+				<p class="text14" >London fashion week with collection of Zent Group</p>
+				</div>	
+
+		</div>
+	
+	<div id="footer" > 
+		 <ul>
+				<li><b>Copyright@2015 Zent Group</b></li>
+				<li><a href="">About</a></li>
+				<li><a href="">FAO</a></li>
+				<li><a href="">Blog</a></li>
+				<li><a href="">Macapp</a></li>
+				<li><a href="">iPad App</a></li>
+				<li><a href="">Tem of Use</a></li>
+				<li><a href="">Private Policy</a></li>
+			</ul>
+	
+</body>
+</html>
