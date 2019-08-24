@@ -1,0 +1,74 @@
+
+@media screen and (min-width: 321px) and (max-width: 768px){
+	body{margin: 0px 0px 0px 10px;padding-left: 0px;background-color:  #f1eded }
+	.khung{height: 7000px;background-color: white}
+	.banner{width: 100%;text-align: center;height: 60px}
+	.banner ul{text-align: center; padding: 0px 0px 0px 0px}
+	.contain{width: 100%;text-align: center; height: 230px}
+	.top2_1{width: 100%;text-align: center;}
+	.top2_2{display: none;}
+	.top2_2_1{display: none;}
+	.top2_2_2{display: none;}
+	.top2_2_3{display: none;}
+	.top3{width: 100%;text-align: center;height: 1610px}
+	.top3_1{width: 100%;text-align: center;margin-right: 0px;height: 460px}
+	.top3_2{width: 98%;text-align: center;height: 460px}
+	.top3_3{width: 98%;text-align: center;height: 460px}
+	.top4{width:100%;text-align: center;}
+	.top4_1{width: 100%;text-align: center;float: left;margin: 0px 0px 0px 0px}
+	.top5{width: 100%;text-align: center;height: 500px}
+	.top5_1{width: 100%;text-align: center; float: left;margin: 0px 0px 0px 0px}
+	.top5_1_1{width: 100%;text-align: center;height:  }
+	.top5_1_1_1{width: 100%;text-align: center; }
+	.top5_1_1_1_1{width: 100%;text-align: center;}
+	.top5_1_1_1_2{width: 100%;text-align: center; }
+	.top5_1_1_2{width: 100%;text-align: center; }
+	.top5_1_1_2_1{width: 100%;text-align: center; }
+	.top5_1_1_2_2{width: 100%;text-align: center; }
+	.top5_1_1_3{width: 100%;text-align: center;}
+	.top5_1_1_3_1{width: 100%;text-align: center;}
+	.top5_1_1_3_2{width: 100%;text-align: center;}
+	.top5_1_1_4{width: 100%;text-align: center; }
+	.top5_1_1_4_1{width: 100%;text-align: center;}
+	.top5_1_1_4_2{width: 100%;text-align: center; }
+	.top5_1_1_5{width: 100%;text-align: center; }
+	.top5_1_1_5_1{width: 100%;text-align: center;}
+	.top5_1_1_5_2{width: 100%;text-align: center;}
+	.top5_1_1_6{display: none;}
+	.top5_1_2{display: none;}
+	.top5_1_2_1{display: none;}
+	.top6{width: 100%;text-align: center;height: 440px}
+	.top6_1_1{width: 500px}
+	.top6_1_2{display: none;}
+	.top6_1_3{display: none;}
+	.top6_1_4{display: none;}
+
+	.top7{width: 100%;text-align: center;height: 1740px;background-color: #f1eded}
+	.top7_1{width: 100%;margin: 20px 0px 0px 0px}
+	.top7_2{width: 100%;margin: 50px 00px 0px 0px}
+	.top7_3{width: 100%;margin: 50px 0px 0px 0px}
+	.top8{width: 100%;text-align: center;height: 900px}
+	.top8_1{width: 100%;text-align: center;}
+	.top8_1_1{width: 480px;text-align: center;height: 250px;float: left;}
+	.top8_1_2{width: 480px;text-align: center;height: 250px;}
+	.top8_1_2_1{width: 480px;text-align: center;height: 250px;}
+	.top8_1_2_1_1{width: 480px;text-align: center;height: 280px;}
+	.top8_1_2_1_2{display: none;}
+	.top8_1_2_1_3{display: none;}
+
+	.top8_1_2_2{width: 480px;text-align: center;height: 250px;}
+	.top8_1_2_2_2{width: 480px;text-align: center;height: 250px;}
+	.top8_1_2_2_1{display: none;}
+	.top8_1_2_2_3{display: none;}
+
+	.top9{width: 500px;height: 600px}
+	.top9_1{width: 500px;height: 500px}
+	.top10{display: none;}
+	.top11{width: 600px;height: 1100px}
+	.top11_1{width: 600px;height: 600px}
+	.top11_1_1{width: 400px;height: 400px;float: left;}
+	.top11_1_2{width: 400px;height: 150px;margin: 100px 0px 0px 0px}
+
+	.top11_1_1_3{width: 400px;height: 150px;}
+	.top11_1_1_4{width: 400px;height: 180px;}
+	
